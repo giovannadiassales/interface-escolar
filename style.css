@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto; 
+    max-width: 480px; 
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #00008B;
+    margin-bottom: 40px;
+}
+
+.container-secoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    margin: 20px auto 40px auto;
+    max-width: 700px;
+    width: 90%;
+}
+
+.container-secoes section {
+    flex: 1;
+}
+
+.div1 {
+    background-color: #6CA6CD;
+    padding: 25px 20px;      
+    border-radius: 12px;     
+    color: #fff;             
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    background-color: #FFA07A;
+    padding: 25px 20px;      
+    border-radius: 12px;
+    color: #333;             
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.b1, .b2 {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.b1 {
+   background-color: #FFA07A;
+    color: #333; 
+  }
+.b2 {
+   background-color: #6CA6CD; 
+   color: #fff;
+   }
+
+legend {
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+h3 {
+    margin-top: 40px;
+    color: #333;
+}
+
+fieldset {
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.endereco {
+    margin: 40px padding 20px;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: #f99b04; 
+    width: 100%;               
+    margin-top: 60px;
+    padding: 15px 0;           
+}
+
+footer p {
+    margin: 0;
+    color: #000;               
+    font-weight: bold;
+}
